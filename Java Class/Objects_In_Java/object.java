@@ -18,7 +18,7 @@ class Student {
 
     public void studentInfo() {
         System.out.println("The name of the Student is " + this.name + " and his age is " + this.age
-                + " And"+this.description);
+                + " And" + this.description);
     }
 }
 
@@ -31,10 +31,7 @@ public class object {
         person person2 = new person();
         person2.name = "Sauta Boy";
 
-        // person1.name();
-        // person2.name();
-
-        // This is for clas Studen
+        // This is for clas Student
 
         Student student1 = new Student();
         student1.name = "Jenisha";
